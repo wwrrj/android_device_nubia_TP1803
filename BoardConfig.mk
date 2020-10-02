@@ -96,3 +96,23 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_EXCLUDE_TWRPAPP := true
+TW_DEFAULT_LANGUAGE:=zh_CN
+TW_SKIP_COMPATIBILITY_CHECK := true
+
+# SHRP specific build flags 
+SHRP_PATH := device/nubia/TP1803
+SHRP_MAINTAINER := wwrrj
+SHRP_DEVICE_CODE := TP1803
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A_Only
+
+SHRP_STATUSBAR_RIGHT_PADDING := 16
+SHRP_STATUSBAR_LEFT_PADDING := 16
+SHRP_NOTCH := true
+SHRP_EXPRESS := true
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard 
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 0
+
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
